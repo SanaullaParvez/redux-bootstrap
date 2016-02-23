@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import NewTodo from './newTodo'
-import { addTodo } from '../actions'
+import { addTodo } from './../actions'
 
 const Todos = ({todos, dispatch}) => (
   <div>
